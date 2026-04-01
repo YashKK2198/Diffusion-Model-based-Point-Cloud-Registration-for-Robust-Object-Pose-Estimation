@@ -1,0 +1,23 @@
+name: Yash's Second Workflow
+on: push
+
+jobs:
+  my_runner:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: First Step
+      run: ls
+      
+    - name: Second Step
+      run: echo " Hello GitHub, could you help me?"
+      
+    - name: Third Step
+      run: echo" Yes Sure, how can I help you? :) "
+
+    - name: Fourth Step
+      run: echo $((2+5))
+
+
+
