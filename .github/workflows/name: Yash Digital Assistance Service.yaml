@@ -1,0 +1,16 @@
+name: Yash Digital Assistance Service
+on: push
+
+jobs: 
+first_job: 
+runs-on: ubuntu-latest
+
+steps:
+- name: Welcome message
+  run: echo "Welcome to Yash's Code Repository" 
+
+-name: List All The Files
+  run: ls
+
+-name: Reading the README Files
+  run: cat README.md 
